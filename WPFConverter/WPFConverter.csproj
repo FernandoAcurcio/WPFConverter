@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCFF9198-79FE-4888-994D-C2DD5A58E6B4}</ProjectGuid>
+    <ProjectGuid>{A552AE1C-56BC-44E1-BAFB-F71DA9092339}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WPFConverter</RootNamespace>
     <AssemblyName>WPFConverter</AssemblyName>
@@ -53,6 +53,7 @@
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
