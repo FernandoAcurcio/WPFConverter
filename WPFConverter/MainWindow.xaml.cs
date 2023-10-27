@@ -24,5 +24,20 @@ namespace WPFConverter
         {
             InitializeComponent();
         }
+
+        private void ButtonConvert_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonClear_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
+        {
+
+        }
     }
 }
