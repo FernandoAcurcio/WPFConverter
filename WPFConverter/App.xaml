@@ -16,6 +16,17 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
+            <!-- create the background collor to the buttons -->
+            <Setter Property="Background" >
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                        <GradientStop Color="Green" Offset="0.0"/>
+                        <GradientStop Color="LightSeaGreen" Offset="0.50"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="White"/>
         </Style>
+
     </Application.Resources>
 </Application>

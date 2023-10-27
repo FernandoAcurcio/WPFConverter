@@ -135,5 +135,20 @@ namespace WPFConverter
             if (CmbToCurrency.Items.Count > 0) { CmbToCurrency.SelectedIndex = 0; }
             TxtCurrency.Focus();
         }
+
+        private void BtnSave_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TbMain_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void ButonSave_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
