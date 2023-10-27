@@ -16,16 +16,6 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-            <!--<Setter Property="Background">
-                <>
-                    <ControlTemplate TargetType="Button">
-                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                            <GradientStop Color="Aqua" Offset="0.0"/>
-                            <GradientStop Color="Aquamarine" Offset="0.50"/>
-                        </LinearGradientBrush>
-                    </ControlTemplate>
-                </>
-            </Setter>-->
         </Style>
     </Application.Resources>
 </Application>
