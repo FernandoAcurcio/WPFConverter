@@ -1,0 +1,32 @@
+﻿<Application x:Class="WPFConverter.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFConverter"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- create a template for buttons, this template adds the round effect to a button-->
+        <Style x:Key="ButtonRound" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <!-- template binding targets the background of the button-->
+                        <Border CornerRadius="5" Background="{TemplateBinding Background}" BorderThickness="0.5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <!-- create the background collor to the buttons -->
+            <Setter Property="Background" >
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                        <GradientStop Color="Green" Offset="0.0"/>
+                        <GradientStop Color="LightSeaGreen" Offset="0.50"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+    </Application.Resources>
+</Application>
